@@ -23,8 +23,13 @@ name_publisher = book_profile["publisher_info"]["name"]
 print(name_publisher)
 
 # 3. Напишіть код, який виводить інформацію у вигляді речення: Книга "[назва]" автора [автор] була видана у місті [місто].
+print(f"Книга '{title}' автора {author_name} була видана у місті {book_profile['publisher_info']["city"]}")
 
 # 4. Перевірте, чи є у словнику book_profile ключ "year". Якщо він є, виведіть його значення, якщо ні — повідомлення "Рік видання невідомий".
-
+year= book_profile.get("year")
+if year is not None:
+    print(year)
+else:
+    print("Рік видання невідомий")
 
 
