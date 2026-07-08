@@ -11,20 +11,20 @@ deposit_account = {
 # 1. Обчисліть суму нарахованих відсотків за рік (сума = баланс *
 # відсоткова_ставка).
 sum = deposit_account["balance"] * deposit_account["interest_rate"]
-print(sum)
+
 
 # 2. Оновіть значення ключа "balance", додавши до нього нараховані
 # відсотки.
 deposit_account["balance"] +=sum
-print(deposit_account["balance"])
+
 
 # 3. Додайте до словника новий ключ "last_update_type" зі значенням
 # "interest accrual".
 deposit_account["last_update_type"] = "interest accrual"
-print(deposit_account)
+
 
 # 4. Змініть значення ключа "is_active" на False, ніби клієнт закрив рахунок.
-
+deposit_account["is_active"] = False
 
 # 5. Виведіть на екран фінальний оновлений словник.
-
+print(deposit_account)
