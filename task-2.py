@@ -10,7 +10,8 @@ deposit_account = {
 }
 # 1. Обчисліть суму нарахованих відсотків за рік (сума = баланс *
 # відсоткова_ставка).
-
+sum = deposit_account["balance"] * deposit_account["interest_rate"]
+print(sum)
 
 # 2. Оновіть значення ключа "balance", додавши до нього нараховані
 # відсотки.
