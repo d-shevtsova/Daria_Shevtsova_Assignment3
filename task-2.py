@@ -20,7 +20,8 @@ print(deposit_account["balance"])
 
 # 3. Додайте до словника новий ключ "last_update_type" зі значенням
 # "interest accrual".
-
+deposit_account["last_update_type"] = "interest accrual"
+print(deposit_account)
 
 # 4. Змініть значення ключа "is_active" на False, ніби клієнт закрив рахунок.
 
