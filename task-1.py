@@ -19,6 +19,8 @@ author_name = book_profile["author"]
 print(title, author_name)
 
 # 2. Отримайте назву видавництва з вкладеного словника.
+name_publisher = book_profile["publisher_info"]["name"]
+print(name_publisher)
 
 # 3. Напишіть код, який виводить інформацію у вигляді речення: Книга "[назва]" автора [автор] була видана у місті [місто].
 
