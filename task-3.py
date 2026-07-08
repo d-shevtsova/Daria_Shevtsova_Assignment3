@@ -11,20 +11,19 @@ exam_results = [
 passing_score = 60 # Прохідний бал
 # 1. Напишіть цикл, який проходить по кожному словнику у списку
 # exam_results.
-
-
 # 2. Всередині циклу порівняйте значення ключа "score" кожного студента зі
 # змінною passing_score.
-
-
 # 3. Додайте до кожного словника новий ключ "passed":
-
 # ● Значення має бути True, якщо бал студента є більшим або рівним
 # прохідному.
-
-
 # ● Значення має бути False, якщо бал менший.
 
+for student in exam_results:
+    if student["score"] >= passing_score:
+        student["passed"] = True
+    else:
+        student["passed"] = False
+print(exam_results)
 
 # 4. Виведіть на екран фінальний список exam_results з доданою
 # інформацією про складання іспиту
