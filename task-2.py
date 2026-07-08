@@ -15,7 +15,8 @@ print(sum)
 
 # 2. Оновіть значення ключа "balance", додавши до нього нараховані
 # відсотки.
-
+deposit_account["balance"] +=sum
+print(deposit_account["balance"])
 
 # 3. Додайте до словника новий ключ "last_update_type" зі значенням
 # "interest accrual".
