@@ -1,16 +1,21 @@
-# This is a sample Python script.
 
-# Press ⌃F5 to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+# Завдання:
+# 1. Створіть новий репозиторій на платформі GitHub з назвою {Your
+# Name}_Assignment3.
+# 2. Створіть 6 окремих файлів для розв’язання поставлених задач. Важливо!
+# Після створення кожного файлу та внесення важливих змін в його зміст -
+# обов’язково створювати комміт. Якість повідомлення враховується під
+# час оцінювання.
+# 3. Після створення всіх файлів та відповідник коммітів з описом основних зімін
+# здійсніть операцію Push.
+# 4. Додайте посилання на репозиторій у відповідне завдання Moodle.
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press F9 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# Критерії оцінювання:
+# 1. Створення репозиторію, його правильне оформлення, створення не менше ніж
+# 1 комміту для кожного файлу завдання. Якість повідомлення в комміті
+# враховується - 2 бал.
+# 2. Виконання завдання 1-2 - 2 бали (кожне по 1 балу).
+# 3. Виконання завдання 3-4 - 3 бали (кожне по 1,5 бала).
+# 4. Виконання завдання 5 - 2 бала.
+# 5. Творчий та індивідуалізований підхід до виконання завдань (додавання
+# власних доповнень, в тому числі у вхідні дані) - 1 бал.
