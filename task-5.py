@@ -38,22 +38,8 @@ for item in sales_data:
     category_report[category]["total_sold"] += item["quantity"]
 
 
+for category, report in category_report.items():
+    print(f"{category}: \n total revenue: {report['total_rev']} \n total sold: {report['total_sold']} \n")
 
-# 3. Виведіть фінальний словник category_report у зручному для читання форматі.
-# Очікуваний результат (структура та значення):
-# {
-# 'Електроніка': {
-# 'total_revenue': 52000,
-# 'total_items_sold': 4
-# },
-# 'Книги': {
-# 'total_revenue': 2300,
-# 'total_items_sold': 3
-# },
-# 'Побутова техніка': {
-# 'total_revenue': 1200,
-# 'total_items_sold': 1
-# }
-# }
 
 
