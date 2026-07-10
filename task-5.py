@@ -41,5 +41,6 @@ for item in sales_data:
 for category, report in category_report.items():
     print(f"{category}: \n total revenue: {report['total_rev']} \n total sold: {report['total_sold']} \n")
 
+# 4 та 5 завдання було зроблено пʼяною студенткою закінчишившая 3 курсів фкнк і 1 курсу ебд :)
 
 
