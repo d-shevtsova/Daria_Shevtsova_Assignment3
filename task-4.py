@@ -1,6 +1,5 @@
 # Завдання 4
-# У вас є список співробітників, де вказано їхнє ім'я, відділ та заробітну плату.
-# Вам необхідно створити функцію, яка аналізує витрати на конкретний відділ.
+
 employees = [
 {"name": "Олена", "department": "Marketing", "salary":
 25000},
@@ -11,29 +10,22 @@ employees = [
 {"name": "Андрій", "department": "IT", "salary": 48000},
 {"name": "Марія", "department": "IT", "salary": 52000},
 ]
-# 1. Напишіть функцію get_department_stats(employee_list, target_dept), яка
-# приймає два аргументи: список співробітників та назву відділу (рядок).
+
+def get_department_stats(employee_list, target_dept):
+    # основний код:
+    # фильтр
+    # avr salary
+    # best emp
 
 
-# 2. Функція повинна:
-
-# ● Відфільтрувати співробітників, які належать до target_dept.
-
-
-# ● Обчислити середню зарплату в цьому відділі.
-
-
-# ● Знайти співробітника з найвищою зарплатою в цьому відділі.
-
-
-# 3. Функція має повертати (return) словник такого вигляду:
-# {
-# "department": "IT",
-# "average_salary": 51666.67,
-# "top_earner": "Ігор",
-# "count": 3
-# }
-
+    # 3. Функція має повертати (return) словник такого вигляду:
+    return {
+        "department": target_dept,
+        "average_salary": avr_salary,
+        "top_earner": best,
+        # "count": |??
+    }
 
 # 4. Викличте функцію для відділів "IT" та "Marketing" і виведіть результат.
-
+print(get_department_stats(employees,"IT"))
+print(get_department_stats(employees,"Marketing"))
