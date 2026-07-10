@@ -14,16 +14,19 @@ employees = [
 def get_department_stats(employee_list, target_dept):
     # основний код:
     # фильтр
+    dep_emp=list(filter(lambda x: x["department"] == target_dept, employee_list))
     # avr salary
+    total = sum(map(lambda x: x["salary"], dep_emp))
+    avg = round(total / len(dep_emp),2)
     # best emp
-
+    best = max(dep_emp, key=lambda x: x["salary"])
 
     # 3. Функція має повертати (return) словник такого вигляду:
     return {
         "department": target_dept,
-        "average_salary": avr_salary,
-        "top_earner": best,
-        # "count": |??
+        "average_salary": avg,
+        "top_earner": best["name"],
+        "count": len(dep_emp)
     }
 
 # 4. Викличте функцію для відділів "IT" та "Marketing" і виведіть результат.
